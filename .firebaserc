@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-authentication-a9c37": {
+      "hosting": {
+        "firebase-auth": [
+          "fir-authentication-a9c37"
+        ]
+      }
+    }
+  }
+}
