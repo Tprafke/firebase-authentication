@@ -4,9 +4,9 @@ import { AuthGuard } from './auth.guard';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const routes: Routes = [
-  {path: 'user-profile', component: UserProfileComponent, canActivate: [AuthGuard]},
-  { path: '', redirectTo: '/user-profile', pathMatch: 'full', canActivate: [AuthGuard]},
-  { path: '**', component: UserProfileComponent, canActivate: [AuthGuard] },
+  {path: 'user-profile', component: UserProfileComponent},
+  // { path: '', redirectTo: '/user-profile', pathMatch: 'full'},
+  // { path: '**', component: UserProfileComponent },
 ];
 
 @NgModule({
